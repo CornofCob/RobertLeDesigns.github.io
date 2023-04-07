@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base target="_parent">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body {
+font-family: "Merriweather", serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+h1{
+text-decoration: underline;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button.dc {
+  background-color: #4682B4;
+  border: none;
+  color: white;
+  width: 100%;
+padding-top:2px;
+padding-bottom:2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #483D8B;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 7px;
+}
+.column.ava{
+width:42.5%;
+margin-left:5%;
+}
+.column.sym{
+width:100%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:200px) {
+  .column {
+    width: 100%;
+  }
+}
+
+img {
+  border: 3px solid  #4682B4;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+<div class="column sym">
+<form action="DC Character Designs.html">
+   <h1 style="text-align: center; color:#4682B4; ">DC</h1>
+</form>
+</div>
+</div>
+<div class="row">
+<div class="column ava">
+<form action="Batman (Bruce Wayne).html">
+   <input type="image"  src="Avatar/Batman (Bruce Wayne).png" alt="Batman (Bruce Wayne)" style="width:100%; border: 3px solid  #4682B4;">
+</form>
+<a href="Batman (Bruce Wayne).html" class="button dc">
+   <p style="margin : 0;  ">Batman</p>
+ <p style="margin : 0;  ">(Bruce Wayne)</p>
+</a>
+</div>
+<div class="column ava">
+<form action="Superman (Clark Kent).html">
+   <input type="image"  src="Avatar/Superman (Clark Kent).png" alt="Superman (Clark Kent)" style="width:100%; border: 3px solid  #4682B4;">
+</form>
+<a href="Superman (Clark Kent).html" class="button dc">
+   <p style="margin : 0;  ">Superman</p>
+ <p style="margin : 0;  ">(Clark Kent)</p>
+</a>
+</div>
+<div class="column ava">
+<form action="Wonder Woman (Diana Prince).html">
+   <input type="image"  src="Avatar/Wonder Woman (Diana Prince).png" alt="Wonder Woman (Diana Prince)" style="width:100%; border: 3px solid  #4682B4;">
+</form>
+<a href="Wonder Woman (Diana Prince).html" class="button dc">
+   <p style="margin : 0;  ">Wonder Woman</p>
+ <p style="margin : 0;  ">(Diana Prince)</p>
+</a>
+</div>
+<div class="column ava">
+<form action="Hawkwoman (Shayera Hol).html">
+   <input type="image"  src="Avatar/Hawkwoman (Shayera Hol).png" alt="Hawkwoman (Shayera Hol)" class="dc" style="width:100%; border: 3px solid  #4682B4;">
+</form>
+<a href="Hawkwoman (Shayera Hol).html" class="button dc">
+   <p style="margin : 0;  ">Hawkwoman</p>
+ <p style="margin : 0;  ">(Shayera Hol)</p>
+</a>
+</div>
+<div class="column ava">
+<form action="Green Lantern (John Stewart).html">
+   <input type="image"  src="Avatar/Green Lantern (John Stewart).png" alt="Green Lantern (John Stewart)" class="dc" style="width:100%; border: 3px solid  #4682B4;">
+</form>
+   <a href="Green Lantern (John Stewart).html" class="button dc">
+   <p style="margin : 0;  ">Green Lantern</p>
+ <p style="margin : 0;  ">(John Stewart)</p>
+</a>
+</div>
+<div class="column ava">
+<form action="Flash (Wally West).html">
+   <input type="image"  src="Avatar/Flash (Wally West).png" alt="Flash (Wally West)" class="dc" style="width:100%; border: 3px solid  #4682B4;">
+</form>
+   <a href="Flash (Wally West).html" class="button dc">
+   <p style="margin : 0;  ">Flash</p>
+ <p style="margin : 0;  ">(Wally West)</p>
+</a>
+</div>
+<div class="column ava">
+<form action="Martian Manhunter (J'onn J'onzz).html">
+   <input type="image"  src="Avatar/Martian Manhunter (J'onn J'onzz).png" alt="Martian Manhunter (J'onn J'onzz)" class="dc" style="width:100%; border: 3px solid  #4682B4;">
+</form>
+   <a href="Martian Manhunter (J'onn J'onzz).html" class="button dc">
+   <p style="margin : 0;  ">Martian Manhunter</p>
+ <p style="margin : 0;  ">(J'onn J'onzz)</p>
+</a>
+</div>
+  </div>
+
+</div>
+</body>
+</html>
+
+
